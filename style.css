@@ -1,0 +1,80 @@
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  position: relative;
+  border: 3px solid pink;
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-around;
+  margin: 50px;
+}
+
+.card {
+  position: relative;
+  border: 2px solid black;
+  width: 700px;
+}
+
+.top-card {
+  height: 100px;
+  background-color: rgb(23, 162, 184);
+}
+
+.bottom-card {
+  background-color: lightgray;
+  height: 200px;
+  padding: 60px 0 0 50px;
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  justify-content: space-evenly;
+}
+
+.profile-pic {
+  width: 100px;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  border: 5px solid white;
+  border-radius: 50%;
+}
+
+.bottom-card h1 {
+  margin: 0;
+  padding-top: 0;
+}
+
+.location {
+  display: flex;
+  flex-direction: flex-start;
+  align-items: center;
+}
+
+.location img {
+  height: 20px;
+  padding: 0 12px 0 0;
+}
+
+.skills {
+  margin: 10px 0;
+}
+
+.edit {
+  display: flex;
+}
+
+.edit img {
+  height: 15px;
+  padding: 0 12px 0 0;
+}
+
+.edit a {
+  color: rgb(23, 162, 184);
+
+  font: bold;
+}
